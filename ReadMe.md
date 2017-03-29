@@ -43,13 +43,13 @@ There is also a Factory to create instances of the house related classes. This i
 
 In this practical session, the goal will be to apply a methodology called TDD, Test Driven Development. This methodology consist in writing the test first and then the actual code of an application.
 
-In the context of the following project, the Application Programming Interface (API) is given and you can then start to write some test about the desired behaviour of your implementation.
+In the context of the following project, the Application Programming Interface (API) is given in the [src/main/java/homeAuto/api] and you can start to write some test about the desired behaviour of your implementation.
 
 ### First Part
 
 Thus, you will first create Unit tests for all the requirements and justify Justify the design decisions of your Tests.
 
-Test should be put in src/test/java/homeauto/core/
+Test should be put in [src/test/java/homeauto/core/]
 
 One test class should be created per class. 
 
@@ -57,7 +57,7 @@ Imagine a new functionality of the House then create a specification that could 
 
 ### Second Part
 
-Implement the production code in the  src/main/java/homeauto/core/ folder and check that all your tests pass 
+Implement the production code in the  [src/main/java/homeauto/core/] folder and check that all your tests pass 
 
 You are not forced to implement  _pathToInitialRoom_ method, however if you do it will give you bonus points :)
 
@@ -71,8 +71,8 @@ Try to tune your coverage score. Explain what was required to improve your cover
 
 ## Information
 
-Release a new version of your work per part completed. Answers can be put in a word, txt or markdown document and then commit in the doc folder.
+Release a new version of your work per part completed. Answers can be put in a word, txt or markdown document and then commit in the [doc/] folder.
 
 You can work either alone, either by group of 2.
 
-Deadline: 21st April 2017 23:59:59 (GMT +2)
+*Deadline*: 21st April 2017 23:59:59 (GMT +2)
