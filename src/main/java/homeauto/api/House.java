@@ -7,7 +7,7 @@ public interface House {
 
     String getName();
 
-    void setName(String value);
+    void setName(String name);
 
 
     List<Room> getRooms();
@@ -19,7 +19,7 @@ public interface House {
     int getTemperatureSensor();
 
 
-    void setTemperatureSensor(int value);
+    void setTemperatureSensor(int temperature);
 
 
     void globalClose();
@@ -30,4 +30,4 @@ public interface House {
 
     void presenceGoOutsideEvent();
 
-} // House
+}

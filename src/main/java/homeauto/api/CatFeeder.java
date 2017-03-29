@@ -6,7 +6,7 @@ public interface CatFeeder {
     int getTankItems();
 
 
-    void setTankItems(int value);
+    void setTankItems(int ration);
 
 
     int feed();

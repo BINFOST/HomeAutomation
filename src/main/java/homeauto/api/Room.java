@@ -19,21 +19,21 @@ public interface Room {
     String getName();
 
 
-    void setName(String value);
+    void setName(String name);
 
 
     boolean isLight();
 
 
-    void setLight(boolean value);
+    void setLight(boolean on);
 
 
     CatFeeder getCatFeeders();
 
 
-    void setCatFeeders(CatFeeder value);
+    void setCatFeeders(CatFeeder feeder);
 
 
     void closeWindows();
 
-} // Room
+}

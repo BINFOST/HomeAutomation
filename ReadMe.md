@@ -12,6 +12,8 @@ A temperature sensor will tell us the external temperature in Celsius as an inte
 A room could have one or more heaters. 
 A house could have several automatic cleaning robots. 
 
+The main method are : 
+
 **closeWindows**: Each room has a physical button that calls the _closeWindows_ method that will close all the windows of the room.
 
 **presenceGoOutsideEvent**: The method must switch off the lights of all the rooms.
@@ -39,14 +41,36 @@ There is also a Factory to create instances of the house related classes. This i
     house.getRooms().add(room);
 
 
-### Exercises
+In this practical session, the goal will be to apply a methodology called TDD, Test Driven Development. This methodology consist in writting the test first and then the actual code of an application.
 
-* Create Unit tests for all the requirements and create a TestSuite. Justify the design decisions of the Tests.
+In the context of the following project, the Application Programming Interface (API) is given and you can then start to write some test about the desired behaviour of your implementation. 
 
-* Imagine a new functionality of the House then create a specification that could serve as oracle and provide test cases to test it. Add these tests to the Test suite. Explain and justify the test cases.
+### First Part
 
-* Implement the production code (except the _pathToInitialRoom_ method) and check that all tests on the Test Suite are passed (except the pathToInitialRoom method tests). 
+Thus, you will first create Unit tests for all the requirements and justify Justify the design decisions of your Tests.
 
-* Create screenshots of the Control Flow Graphs of all the production code implemented in previous point. (Using Source Code Visualizer).
+Test should be put in src/test/java/homeauto/core/
 
-* Create and export the report of the coverage of the TestSuite. Discuss the global coverage of instructions, branches, lines and methods of the whole project. Discuss the coverage of a class of your selection. 
+One test class should be created per class. 
+
+Imagine a new functionality of the House then create a specification that could serve as oracle and provide test cases to test it. Explain and justify the test cases.
+
+### Second Part
+
+Implement the production code  and check that all tests on the Test Suite are passed 
+
+You are not forced to implement  _pathToInitialRoom_ method, however if you do it will be counted as bonus points :)
+
+In this project a dependancy to a code coverage tool was added, run mvn install once and go in the target folder, then site and then jacoco-ut. You should find a index.html file, open in in your browser, it should print the coverage of your program. Copy the jacoco-ut folder in the doc at the root of the project and com
+ Discuss the global coverage of instructions, branches, lines and methods of your project and then Discuss the coverage of a class of your selection. 
+
+### Third Part (Bonus)
+
+Try to tune your coverage. Explain what was required to improve your coverage.
+
+
+## How to
+
+Release a new version of your work per part completed. Answers can be put in word, txt or markdown document and then commited in the doc folder.
+
+You can work either alone, either by group of 2.

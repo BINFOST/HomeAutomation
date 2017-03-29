@@ -5,6 +5,6 @@ public interface Openable {
     boolean isOpen();
 
 
-    void setOpen(boolean value);
+    void setOpen(boolean open);
 
 }
