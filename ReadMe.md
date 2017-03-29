@@ -1,8 +1,18 @@
 # Practical Session of Software Testing
 
-## TP2 : Home automation Code Coverage
+# TP2 : Home automation Code Coverage
 
+## Information
 
+Release a new version of your work per part completed. Answers can be put in a word, txt or markdown document and then commit in the [doc/] folder.
+
+Please add your name, id and mail in the pom.xml in the developers section!
+
+You can work either alone, either by group of 2.
+
+*Deadline*: 21st April 2017 23:59:59 (GMT +2)
+
+## Instructions
 
 A House consists of Rooms. 
 Rooms can be connected to other rooms. 
@@ -69,10 +79,3 @@ In this project a dependency to a code coverage tool was added, run mvn install 
 Try to tune your coverage score. Explain what was required to improve your coverage.
 
 
-## Information
-
-Release a new version of your work per part completed. Answers can be put in a word, txt or markdown document and then commit in the [doc/] folder.
-
-You can work either alone, either by group of 2.
-
-*Deadline*: 21st April 2017 23:59:59 (GMT +2)
