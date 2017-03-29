@@ -1,7 +1,7 @@
 # Practical Session of Software Testing
 
 ## TP2 : Home automation Code Coverage
-***
+
 
 
 A House consists of Rooms. 
@@ -41,9 +41,9 @@ There is also a Factory to create instances of the house related classes. This i
     house.getRooms().add(room);
 
 
-In this practical session, the goal will be to apply a methodology called TDD, Test Driven Development. This methodology consist in writting the test first and then the actual code of an application.
+In this practical session, the goal will be to apply a methodology called TDD, Test Driven Development. This methodology consist in writing the test first and then the actual code of an application.
 
-In the context of the following project, the Application Programming Interface (API) is given and you can then start to write some test about the desired behaviour of your implementation. 
+In the context of the following project, the Application Programming Interface (API) is given and you can then start to write some test about the desired behaviour of your implementation.
 
 ### First Part
 
@@ -57,20 +57,22 @@ Imagine a new functionality of the House then create a specification that could 
 
 ### Second Part
 
-Implement the production code  and check that all tests on the Test Suite are passed 
+Implement the production code in the  src/main/java/homeauto/core/ folder and check that all your tests pass 
 
-You are not forced to implement  _pathToInitialRoom_ method, however if you do it will be counted as bonus points :)
+You are not forced to implement  _pathToInitialRoom_ method, however if you do it will give you bonus points :)
 
-In this project a dependancy to a code coverage tool was added, run mvn install once and go in the target folder, then site and then jacoco-ut. You should find a index.html file, open in in your browser, it should print the coverage of your program. Copy the jacoco-ut folder in the doc at the root of the project and com
- Discuss the global coverage of instructions, branches, lines and methods of your project and then Discuss the coverage of a class of your selection. 
+In this project a dependency to a code coverage tool was added, run mvn install once and go in the target folder, then site and then jacoco-ut. You should find a index.html file, open it in your browser, it should print the coverage information of your test suite.
+ Discuss the global coverage of instructions, branches, lines and methods of your project and then discuss the coverage of a class of your choice. 
 
 ### Third Part (Bonus)
 
-Try to tune your coverage. Explain what was required to improve your coverage.
+Try to tune your coverage score. Explain what was required to improve your coverage.
 
 
-## How to
+## Information
 
-Release a new version of your work per part completed. Answers can be put in word, txt or markdown document and then commited in the doc folder.
+Release a new version of your work per part completed. Answers can be put in a word, txt or markdown document and then commit in the doc folder.
 
 You can work either alone, either by group of 2.
+
+Deadline: 21st April 2017 23:59:59 (GMT +2)
