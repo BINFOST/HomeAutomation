@@ -8,9 +8,8 @@ Release a new version of your work per part completed. Answers can be put in a w
 
 Please add your name, id and mail in the pom.xml in the developers section!
 
-You can work either alone, either by group of 2.
-
-*Deadline*: 21st April 2017 23:59:59 (GMT +2)
+*Deadline P1*: 8th April 2017 23:59:59 (GMT +2)
+*Deadline P2*: 16th April 2017 23:59:59 (GMT +2)
 
 ## Instructions
 
